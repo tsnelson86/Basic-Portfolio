@@ -135,6 +135,11 @@ aside {
 	margin-right: auto;
 }
 
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
 a:visited {
 	color: #5E7F7E;
 }
@@ -145,11 +150,6 @@ a:hover {
 
 a:active {
 	color: #BBFFFB;
-}
-
-a {
-	text-decoration: none;
-	color: #777777;
 }
 
 footer{
