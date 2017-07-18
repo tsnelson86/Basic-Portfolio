@@ -37,7 +37,7 @@ header{
 }
 
 .headercontent{
-	max-width: 1200px;	
+	max-width: 960px;	
 	margin: 0 auto 0 auto;
 }
 
@@ -53,6 +53,10 @@ header{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+a {
+
+}
+
 nav {
 	float: right;
 	line-height: 122px;
@@ -62,7 +66,7 @@ nav {
 }
 
 section {
-	max-width: 1200px;	
+	max-width: 960px;	
 	margin: 0 auto 0 auto;
 }
 
@@ -70,7 +74,7 @@ section {
 	float: left;
 	overflow: auto;
 	margin-bottom: 1em;
-	width: 839px;
+	width: 650px;
 	background: #ffffff;
 	padding-right: 2em;
 	padding-left: 2em;
@@ -101,7 +105,7 @@ section {
 aside {
 	float: left;
 	overflow: auto;
-	width: 325px;
+	width: 270px;
 	padding-right: 2em;
 	padding-left: 2em;
 	padding-bottom: 2em;
@@ -123,8 +127,8 @@ aside {
 	color: #4aaaa5;
 	padding: 0 0 1em 0;
 	border-bottom: 2px solid #cccccc;
-	margin-bottom: 1em;
-	margin-top: 0px;
+	margin-bottom: 1em
+	margin-top: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 1.25em;
 }
@@ -196,7 +200,7 @@ textarea {
 .portfolioimgs {
 	position: relative;
 	z-index: 1;
-	margin: 50px;
+	margin: 25px;
 	display: inline-block;
 }
 
