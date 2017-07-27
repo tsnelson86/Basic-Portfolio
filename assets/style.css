@@ -36,8 +36,7 @@ header{
 	overflow: auto;
 }
 
-.headercontent{
-	max-width: 1200px;	
+.headercontent {
 	margin: 0 auto 0 auto;
 }
 
@@ -62,11 +61,10 @@ nav {
 }
 
 section {
-	max-width: 1200px;	
 	margin: 0 auto 0 auto;
 }
 
-.content {
+summary {
 	float: left;
 	overflow: auto;
 	margin-bottom: 1em;
@@ -194,6 +192,16 @@ textarea {
 	border: none;
 }
 
+.submit {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.submit:hover {
+    background-color: #5E7F7E;
+    color: white;
+}
+
 .portfolioimgs {
 	position: relative;
 	z-index: 1;
@@ -212,4 +220,60 @@ span {
 	z-index: 10;
 	font-size: 1.1em;
 	padding: .75em;
+}
+
+@media screen and (min-width: 1200px){
+	html {
+		max-width: 1800px
+	}
+	.headercontent {
+		max-width: 1200px;
+	}
+	section {
+		max-width: 1200px;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+	html {
+		max-width: 1200px
+	}
+	.headercontent {
+		max-width: 840px;
+	}
+	section {
+		max-width: 840px;
+		overflow: auto;
+	}
+	summary {
+		max-width: 100%;
+	}
+	aside {
+		margin-left: 0px;
+		display: block;
+		margin-left: 25%;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	html {
+		max-width: 768px
+	}
+	.headercontent {
+		max-width: 400px;
+	}
+	summary {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	section {
+		max-width: 400px;
+	}
+	aside {
+		max-width: 400px;
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 100%
+	}
 }
